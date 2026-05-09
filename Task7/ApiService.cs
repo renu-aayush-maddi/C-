@@ -9,7 +9,6 @@ namespace AsyncApiDemo
         {
             return await client.GetStringAsync("https://jsonplaceholder.typicode.com/users");
         }
-
         public async Task<string> GetPosts()
         {
             return await client.GetStringAsync("https://jsonplaceholder.typicode.com/posts");
